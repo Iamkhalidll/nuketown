@@ -4,7 +4,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +15,12 @@
 }
 
 body {
+  
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+.overlay {
+  opacity: 1; /* Ensure full opacity */
+  mix-blend-mode: normal; /* Disable blend modes */
 }

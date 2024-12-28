@@ -10,6 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkGray: '#111111', // Replace with your preferred dark gray hex value
+    
       },
     },
   },
