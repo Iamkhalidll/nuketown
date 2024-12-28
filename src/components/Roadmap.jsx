@@ -7,7 +7,7 @@ const Roadmap = () => {
                 Roadmap
               </h1>
             <ol className="list-decimal list-inside space-y-2">
-                <li>CTO Takeover.</li>
+                <li>Community Take over.</li>
                 <li>Active Community Engagement and Live Streaming.</li>
                 <li>Verification of Official X Page.</li>
                 <li>Website Development.</li>
