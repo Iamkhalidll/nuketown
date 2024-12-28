@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Legit = () => {
-    const caption = 'The $Nuketown that rugged us';
+    const caption = 'The $Nuketown dev that rugged us';
     return (
         <div className="h-full w-full flex flex-col lg:items-center Lg:justify-center">
             <div className="max-w-4xl px-4 space-y-8">

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Instagram, Twitter, Send } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer id='footer' className="w-full  text-white py-8">
+    <footer id='footer' className="w-full text-white py-8">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col items-center space-y-6">
           {/* Social Media Icons */}
@@ -14,7 +13,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-red-700 transition-colors duration-300"
             >
-              <Twitter size={28} />
+               <img
+                src="/twitter_x_new_logo_x_rounded_icon_256078.webp"
+                alt="X Logo"
+                className="w-9 h-9 object-contain"
+              />
             </a>
             <a 
               href="https://t.me/NUKETOWNCTO" 
@@ -22,7 +25,23 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-red-700 transition-colors duration-300"
             >
-              <Send size={28} />
+              <img
+                src="/telegram-svgrepo-com.svg"
+                alt="Telegram Logo"
+                className="w-9 h-9 object-contain"
+              />
+            </a>
+            <a 
+              href="https://pump.fun/coin/Brq9svC25ZJHP21VvKtkG7qrkPyCjHubRPUhVwdYpump" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-red-700 transition-colors duration-300"
+            >
+              <img
+                src="/pumpfun-logo.png"
+                alt="Pumpfun Logo"
+                className="w-9 h-8 object-contain"
+              />
             </a>
           </div>
 
