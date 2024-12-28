@@ -28,23 +28,6 @@ const Hero = () => {
           </div>
         </div>
         {/* Logo cloud */}
-        <div className="flex justify-center">
-          <div className="-mx-6 flex justify-center gap-6 px-6 py-3 mt-3 md:gap-2 rounded-lg lg:gap-4 bg-gradient-to-br from-black/20 to-white/20">
-            <a
-              className="rounded-lg overflow-hidden"
-              href="https://t.me/LostPepeOnSol"
-            >
-              <img src="/images/telegram.png" className="w-10 lg:w-16" alt="" />
-            </a>
-
-            <a
-              className="rounded-lg overflow-hidden"
-              href="https://x.com/lostpepeOnSol"
-            >
-              <img src="/images/x.png" className="w-10 lg:w-16" alt="" />
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
