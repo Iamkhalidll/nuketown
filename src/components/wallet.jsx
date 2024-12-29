@@ -1,10 +1,24 @@
-import React from "react";
+"use client";
+import React, { useState } from 'react';
 
-const WalletCopy = ({ handleCopy, copied }) => {
+const WalletCopy = () => {
+  const [copied, setCopied] = useState(false);
+  const walletAddress = "Brq9svC25ZJHP21VvKtkG7qrkPyCjHubRPUhVwdYpump";
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(walletAddress);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
+  };
+
   return (
     <div className="relative px-9 my-8" id="wallet"> 
       <div className="text-center rounded-lg">
-        <div className="bg-darkGray rounded-xl">
+        <div className="bg-gray-800 rounded-xl">
           <div className="text-neutral-100 px-4 sm:px-6 lg:px-8 py-6 space-y-8">
             <div className="text-center mx-auto">
               <h1 className="font-medium text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
@@ -12,18 +26,17 @@ const WalletCopy = ({ handleCopy, copied }) => {
               </h1>
             </div>
 
-            <p className="lg:text-2xl break-all text-lg ">
-            Brq9svC25ZJHP21VvKtkG7qrkPyCjHubRPUhVwdYpump
+            <p className="lg:text-2xl break-all text-lg">
+              {walletAddress}
             </p>
 
             <div className="text-center">
               <button
                 className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-red-700 to-red-900 shadow-lg shadow-transparent hover:shadow-red-900/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:shadow-green-700/50 py-3 px-6"
-                onClick={handleCopy} // Use the handleCopy function passed as a prop
+                onClick={handleCopy}
               >
                 {copied ? (
                   <span className="flex justify-center items-center bg-gray-800 rounded-md size-7">
-                    {/* Checkmark SVG */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -41,7 +54,6 @@ const WalletCopy = ({ handleCopy, copied }) => {
                   </span>
                 ) : (
                   <span className="flex justify-center items-center bg-gray-800 rounded-md size-7">
-                    {/* Copy Icon */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -59,7 +71,7 @@ const WalletCopy = ({ handleCopy, copied }) => {
                     </svg>
                   </span>
                 )}
-                {copied ? <span>copied</span> : <span>copy</span>}
+                {copied ? <span>Copied!</span> : <span>Copy</span>}
               </button>
             </div>
           </div>

@@ -14,7 +14,7 @@ const Hero = () => {
 
             <div className="mt-5 text-center mx-auto">
               <h1 className="block font-bold   text-4xl md:text-5xl lg:text-6xl">
-                Join the Nuketown Revolution!
+                Join the $Nuketown Revolution!
               </h1>
             </div>
 

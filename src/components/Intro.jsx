@@ -38,40 +38,40 @@ export default function About2() {
     // Slide 1
     <div key="slide1" className="grid gap-4 md:gap-8 xl:gap-20 md:items-center">
       <div className="md:col-span-2">
-        <h1 className="block text-3xl font-bold text-red-700 sm:text-4xl lg:text-6xl lg:leading-tight">
-          What is $Nuketown
-        </h1>
-        <p className="mt-3 text-lg">
-          NUKETOWN 2025 (NUKETOWN): A Community-Driven Revival
-          <br />
-          <br />
-          NUKETOWN pays homage to the legendary Nuketown 2025 map from
-          Call of Duty: Black Ops 2, celebrating the unforgettable
-          memories of 2012. From thrilling sniper duels to intense 1v1
-          showdowns, it's a nostalgic tribute to the friendships,
-          rivalries, and late-night gaming sessions that defined a
-          generation. As we approach the real 2025, NUKETOWN unites
-          fans of the iconic map and the era it represents, preserving
-          its legacy for gaming enthusiasts everywhere.
-          <br />
-          <br />
-          However, the project's journey wasn't without challenges. Its
-          original developer betrayed the trust of the community,
-          rug-pulling the $Nuketown token not once, but twice—first by
-          launching a fraudulent version, and then by creating a second
-          contract under false pretenses, only to repeat the deceit on a
-          live stream. This blatant disregard for the community's trust
-          led to the developer abandoning the project entirely.
-          <br />
-          <br />
-          Now, the NUKETOWN community has risen to reclaim and revive
-          the project with a renewed purpose: to honor the spirit of
-          Nuketown while holding bad actors accountable. This revival
-          stands as a testament to the resilience of its supporters and
-          a reminder to all developers to uphold integrity in the crypto
-          space. Join us in keeping the Nuketown legacy alive and
-          proving that community-driven projects can overcome adversity.
-        </p>
+      <h1 className="block text-3xl font-bold text-red-700 sm:text-4xl lg:text-6xl lg:leading-tight">
+        What is $Nuketown
+      </h1>
+      <p className="mt-3 text-lg">
+        $NUKETOWN 2025 ($NUKETOWN): A Community-Driven Revival
+        <br />
+        <br />
+        $NUKETOWN pays homage to the legendary $Nuketown 2025 map from
+        Call of Duty: Black Ops 2, celebrating the unforgettable
+        memories of 2012. From thrilling sniper duels to intense 1v1
+        showdowns, it's a nostalgic tribute to the friendships,
+        rivalries, and late-night gaming sessions that defined a
+        generation. As we approach the real 2025, $NUKETOWN unites
+        fans of the iconic map and the era it represents, preserving
+        its legacy for gaming enthusiasts everywhere.
+        <br />
+        <br />
+        However, the project's journey wasn't without challenges. Its
+        original developer betrayed the trust of the community,
+        rug-pulling the $Nuketown token not once, but twice—first by
+        launching a fraudulent version, and then by creating a second
+        contract under false pretenses, only to repeat the deceit on a
+        live stream. This blatant disregard for the community's trust
+        led to the developer abandoning the project entirely.
+        <br />
+        <br />
+        Now, the $NUKETOWN community has risen to reclaim and revive
+        the project with a renewed purpose: to honor the spirit of
+        $Nuketown while holding bad actors accountable. This revival
+        stands as a testament to the resilience of its supporters and
+        a reminder to all developers to uphold integrity in the crypto
+        space. Join us in keeping the $Nuketown legacy alive and
+        proving that community driven projects can overcome adversity.
+      </p>
       </div>
     </div>,
     // Slide 2
