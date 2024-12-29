@@ -35,8 +35,9 @@ export default function About2() {
   };
 
   const slides = [
+    <Roadmap key="slide1" />,
     // Slide 1
-    <div key="slide1" className="grid gap-4 md:gap-8 xl:gap-20 md:items-center">
+    <div key="slide2" className="grid gap-4 md:gap-8 xl:gap-20 md:items-center">
       <div className="md:col-span-2">
       <h1 className="block text-3xl font-bold text-red-700 sm:text-4xl lg:text-6xl lg:leading-tight">
         What is $Nuketown
@@ -75,9 +76,8 @@ export default function About2() {
       </div>
     </div>,
     // Slide 2
-    <Legit key="slide2" />,
-    // Slide 3
-    <Roadmap key="slide3" />,
+    <Legit key="slide3" />,
+    
   ];
 
   return (
