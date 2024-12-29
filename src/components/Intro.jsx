@@ -42,7 +42,7 @@ export default function About2() {
         What is $Nuketown
       </h1>
       <p className="mt-3 text-lg">
-        $NUKETOWN 2025 ($NUKETOWN): A Community-Driven Revival
+        NUKETOWN 2025 ($NUKETOWN): A Community-Driven Revival
         <br />
         <br />
         $NUKETOWN pays homage to the legendary $Nuketown 2025 map from
@@ -57,7 +57,7 @@ export default function About2() {
         <br />
         However, the project's journey wasn't without challenges. Its
         original developer betrayed the trust of the community,
-        rug-pulling the $Nuketown token not once, but twice—first by
+        rug pulling the Nuketown token not once, but twice first by
         launching a fraudulent version, and then by creating a second
         contract under false pretenses, only to repeat the deceit on a
         live stream. This blatant disregard for the community's trust
@@ -69,7 +69,7 @@ export default function About2() {
         $Nuketown while holding bad actors accountable. This revival
         stands as a testament to the resilience of its supporters and
         a reminder to all developers to uphold integrity in the crypto
-        space. Join us in keeping the $Nuketown legacy alive and
+        space. Join us in keeping the Nuketown legacy alive and
         proving that community driven projects can overcome adversity.
       </p>
       </div>

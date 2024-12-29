@@ -19,9 +19,7 @@ export default function Home() {
     '/carousel image 6.jpg',
     '/carousel image 7.jpg',
     '/carousel image 8.jpg',
-    '/carousel image 9.jpg',
-    '/carousel image 10.jpg'
-    
+    '/carousel image 9.jpg', 
   ];
 
   return (
