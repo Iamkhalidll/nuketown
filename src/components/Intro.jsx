@@ -45,7 +45,7 @@ export default function About2() {
         NUKETOWN 2025 ($NUKETOWN): A Community-Driven Revival
         <br />
         <br />
-        $NUKETOWN pays homage to the legendary $Nuketown 2025 map from
+        $NUKETOWN pays homage to the legendary Nuketown 2025 map from
         Call of Duty: Black Ops 2, celebrating the unforgettable
         memories of 2012. From thrilling sniper duels to intense 1v1
         showdowns, it's a nostalgic tribute to the friendships,
@@ -57,7 +57,7 @@ export default function About2() {
         <br />
         However, the project's journey wasn't without challenges. Its
         original developer betrayed the trust of the community,
-        rug pulling the Nuketown token not once, but twice first by
+        rug pulling the $Nuketown token not once, but twice first by
         launching a fraudulent version, and then by creating a second
         contract under false pretenses, only to repeat the deceit on a
         live stream. This blatant disregard for the community's trust
@@ -66,7 +66,7 @@ export default function About2() {
         <br />
         Now, the $NUKETOWN community has risen to reclaim and revive
         the project with a renewed purpose: to honor the spirit of
-        $Nuketown while holding bad actors accountable. This revival
+        Nuketown while holding bad actors accountable. This revival
         stands as a testament to the resilience of its supporters and
         a reminder to all developers to uphold integrity in the crypto
         space. Join us in keeping the Nuketown legacy alive and
