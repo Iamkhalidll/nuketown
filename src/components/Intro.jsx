@@ -43,7 +43,7 @@ export default function About2() {
         What is $Nuketown
       </h1>
       <p className="mt-3 text-lg">
-        NUKETOWN 2025 ($NUKETOWN): A Community-Driven Revival
+        NUKETOWN 2025 ($NUKETOWN): A Community Driven Revival
         <br />
         <br />
         $NUKETOWN pays homage to the legendary Nuketown 2025 map from
