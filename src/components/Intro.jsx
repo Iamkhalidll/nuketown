@@ -54,6 +54,7 @@ export default function About2() {
           space. Join us in keeping the Nuketown legacy alive and
           proving that community driven projects can overcome adversity.
         </p>
+
       </div>
     </div>,
     // Slide 2
