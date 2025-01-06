@@ -1,7 +1,6 @@
 "use client";
 import { useState } from 'react';
 import Roadmap from "./Roadmap";
-import Legit from './Legit';
 
 export default function About2() {
   const [currentSlide, setCurrentSlide] = useState(0);
