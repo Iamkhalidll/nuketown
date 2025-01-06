@@ -56,9 +56,8 @@ export default function About2() {
         </p>
 
       </div>
-    </div>,
+    </div>
     // Slide 2
-    <Legit key="slide3" />,
   ];
 
   return (
