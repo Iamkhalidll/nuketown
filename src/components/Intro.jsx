@@ -4,7 +4,7 @@ import Roadmap from "./Roadmap";
 
 export default function About2() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 3;
+  const totalSlides = 2;
 
   const goToNextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % totalSlides);
