@@ -5,7 +5,7 @@ const Footer = () => {
     <footer id='footer' className="w-full text-white py-8">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col items-center space-y-6">
-          {/* Social Media Icons */}
+          {/*Social Media Icons*/}
           <div className="flex space-x-8">
             <a 
               href="https://x.com/NUKETOWNCTO2025" 
