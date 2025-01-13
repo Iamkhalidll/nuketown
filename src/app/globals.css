@@ -21,6 +21,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .overlay {
-  opacity: 1; /* Ensure full opacity */
+  opacity: 1; /*Ensure full opacity */
   mix-blend-mode: normal; /* Disable blend modes */
 }
